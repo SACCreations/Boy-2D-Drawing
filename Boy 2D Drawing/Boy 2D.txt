@@ -1,0 +1,11 @@
+import turtle as t
+import winsound
+
+wn=t.Screen()
+wn.setup(460,700)
+wn.title("Boy 2D drawing")
+winsound.PlaySound("boy.wav",winsound.SND_ASYNC)
+
+from Boy import*
+Background()
+Boy()
